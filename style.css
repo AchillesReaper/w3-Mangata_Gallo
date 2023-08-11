@@ -6,9 +6,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-P {
-    text-align: justify;
-}
+
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -44,10 +42,14 @@ nav ul{
     background-color: rgb(67, 41, 41);
     border-radius: 10px;
 }
-a{
+
+a:link{
     color: aliceblue;
 }
 
+a:visited{
+    color: rgb(126, 107, 82);
+}
 
 section{
     display: flex;
@@ -68,13 +70,26 @@ article{
     background-position-y: center;
     background-position: center;
     color: #8d8de5;
+    text-align: center;
 }
+
 
 .articleImg{
     border-radius: 10px;
 }
 
+.products p {
+    text-align: justify;
+}
 
+.products:hover {
+    border: 3px solid greenyellow;
+
+    .articleImg{
+        border: 3px solid green;
+    }
+
+}
 
 footer{
     display: flex;

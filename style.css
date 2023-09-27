@@ -6,8 +6,6 @@ h2 {
     font-size: 1.5rem;
 }
 
-
-
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: aqua;
@@ -25,10 +23,10 @@ header, footer{
 
 header img{
     display: block;
+    max-width: 85vw;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
-
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 3%;
@@ -53,6 +51,8 @@ a:visited{
 
 section{
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 article{
@@ -65,6 +65,7 @@ article{
     background-color: aquamarine;
 }
 
+
 #banner{
     background-image: url(image/banner.png);
     background-position-y: center;
@@ -72,7 +73,6 @@ article{
     color: #8d8de5;
     text-align: center;
 }
-
 
 .articleImg{
     border-radius: 10px;
